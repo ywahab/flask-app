@@ -102,7 +102,6 @@ Replace <your-repo-url> with your Git repository URL.
 Step 5: Test the Jenkins Pipeline
 
 
-ref:https://blog.devops.dev/ci-cd-with-jenkins-a-beginners-guide-to-deploying-a-flask-api-application-f4254633ab7b
     1. Save the Jenkins job configuration.
     2. Click Build Now.
     3. Monitor the console output to ensure each stage completes successfully.
@@ -110,3 +109,9 @@ Step 6: Verify the Deployment
 Once the pipeline finishes, check if the Flask app is running:
     • Access the API at http://<server-ip>:5000/.
 
+
+
+
+
+
+ref:https://blog.devops.dev/ci-cd-with-jenkins-a-beginners-guide-to-deploying-a-flask-api-application-f4254633ab7b
