@@ -82,11 +82,13 @@ stages {
             steps {
                 git url: 'https://github.com/ywahab/flask-app.git', branch: 'main'
             }
-        }stage('Build Docker Image') {
+        }
+        stage('Build Docker Image') {
             steps {
                 sh 'docker build -t flask-api .'
             }
-        }stage('Run Docker Container') {
+        }
+        stage('Run Docker Container') {
             steps {
                 sh '''
                 docker stop flask-api || true
