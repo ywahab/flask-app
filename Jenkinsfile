@@ -3,7 +3,7 @@ pipeline {
 stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/ywahab/flask.git', branch: 'main'
+                git url: 'https://github.com/ywahab/flask-app.git', branch: 'main'
             }
         }
 stage('Build Docker Image') {
